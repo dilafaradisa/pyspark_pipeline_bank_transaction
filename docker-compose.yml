@@ -18,34 +18,50 @@ services:
       - my_network
 
   source_db:
-    image: postgres:latest
+    image: postgres:16
     hostname: source_db
     container_name: source_db_container
     restart: on-failure
     environment:
-      - POSTGRES_DB=source
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=${SRC_POSTGRES_DB}
+      - POSTGRES_USER=${SRC_POSTGRES_USER}
+      - POSTGRES_PASSWORD=${SRC_POSTGRES_PASSWORD}
     volumes:
-      - ./source/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./database/source/init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
-      - 5438:5432 
+      - ${SRC_POSTGRES_PORT}:5432 
     networks:
       - my_network
 
   data_warehouse:
-    image: postgres:latest
+    image: postgres:16
     hostname: data_warehouse
     container_name: data_warehouse_container
     restart: on-failure
     environment:
-      - POSTGRES_DB=data_warehouse
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=${DWH_POSTGRES_DB}
+      - POSTGRES_USER=${DWH_POSTGRES_USER}
+      - POSTGRES_PASSWORD=${DWH_POSTGRES_PASSWORD}
     volumes:
-      - ./warehouse/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./database/warehouse/init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
-      - 5439:5432 
+      - ${DWH_POSTGRES_PORT}:5432 
+    networks:
+      - my_network
+
+  log_db:
+    image: postgres:16
+    container_name: log_db
+    restart: always
+    environment:
+      - POSTGRES_DB=${LOG_POSTGRES_DB}
+      - POSTGRES_USER=${LOG_POSTGRES_USER}
+      - POSTGRES_PASSWORD=${LOG_POSTGRES_PASSWORD}
+    ports:
+      - ${LOG_POSTGRES_PORT}:5432
+    volumes:
+      - ./database/log:/docker-entrypoint-initdb.d
+      # - log-volume:/var/lib/postgresql/data
     networks:
       - my_network
   

@@ -239,3 +239,235 @@
 2025-03-04 05:30:21,217 - INFO - ===== Finish Load data to the database =====
 2025-03-04 05:30:21,218 - INFO - ===== Start Load data to the database =====
 2025-03-04 05:30:47,859 - INFO - ===== Finish Load data to the database =====
+[2026-05-25 09:18:08,871] [INFO] Extracting table: marital_status
+[2026-05-25 09:18:10,326] [INFO]   → 3 rows, 4 columns
+[2026-05-25 09:18:10,328] [INFO] Extracting table: education_status
+[2026-05-25 09:18:10,651] [INFO]   → 4 rows, 4 columns
+[2026-05-25 09:18:10,652] [INFO] Extracting table: marketing_campaign_deposit
+[2026-05-25 09:18:10,988] [INFO]   → 45211 rows, 20 columns
+[2026-05-25 09:23:16,792] [INFO] Extracting table: marital_status
+[2026-05-25 09:23:17,313] [INFO] Finished extracting data from table marital_status: 3 rows, 4 columns
+[2026-05-25 09:23:17,315] [INFO] Extracting table: education_status
+[2026-05-25 09:23:17,543] [INFO] Finished extracting data from table education_status: 4 rows, 4 columns
+[2026-05-25 09:23:17,544] [INFO] Extracting table: marketing_campaign_deposit
+[2026-05-25 09:23:17,677] [INFO] Finished extracting data from table marketing_campaign_deposit: 45211 rows, 20 columns
+[2026-05-25 10:18:43,593] [ERROR] No such comm target registered: jupyter.widget.control
+[2026-05-25 10:18:43,683] [WARNING] No such comm: 083f64a4-1dc9-4bb9-8b63-fda86857e4a9
+[2026-05-25 12:36:47,337] [ERROR] No such comm target registered: jupyter.widget.control
+[2026-05-25 12:36:47,357] [WARNING] No such comm: 1da8b034-17bf-4623-8dc1-16dea25076b1
+[2026-05-26 04:38:11,409] [INFO] Error while receiving.
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 516, in send_command
+    raise Py4JNetworkError("Answer from Java side is empty")
+py4j.protocol.Py4JNetworkError: Answer from Java side is empty
+[2026-05-26 04:38:11,437] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:11,443] [ERROR] Exception while sending command.
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 516, in send_command
+    raise Py4JNetworkError("Answer from Java side is empty")
+py4j.protocol.Py4JNetworkError: Answer from Java side is empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+[2026-05-26 04:38:11,446] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:14,187] [INFO] Error while receiving.
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 516, in send_command
+    raise Py4JNetworkError("Answer from Java side is empty")
+py4j.protocol.Py4JNetworkError: Answer from Java side is empty
+[2026-05-26 04:38:14,189] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:14,191] [ERROR] Exception while sending command.
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 516, in send_command
+    raise Py4JNetworkError("Answer from Java side is empty")
+py4j.protocol.Py4JNetworkError: Answer from Java side is empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+[2026-05-26 04:38:14,193] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:14,194] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:14,195] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:14,196] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:14,196] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:14,196] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:14,197] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:35,104] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:44,699] [INFO] Closing down clientserver connection
+[2026-05-26 04:38:55,457] [ERROR] No such comm target registered: jupyter.widget.control
+[2026-05-26 04:38:55,474] [WARNING] No such comm: 18f05b9f-879d-498d-8a55-b7ebe56b2aac
+[2026-05-26 04:39:14,693] [INFO] Closing down clientserver connection
+[2026-05-26 04:39:14,756] [INFO] Closing down clientserver connection
+[2026-05-26 04:39:19,030] [INFO] Closing down clientserver connection
+[2026-05-26 04:39:59,898] [INFO] Closing down clientserver connection
+[2026-05-26 04:43:48,518] [INFO] Extracting table: marital_status
+[2026-05-26 04:43:49,317] [ERROR] Error extracting data from table {table_name}: {e}
+[2026-05-26 04:43:49,317] [INFO] Extracting table: education_status
+[2026-05-26 04:43:49,318] [ERROR] Error extracting data from table {table_name}: {e}
+[2026-05-26 04:43:49,318] [INFO] Extracting table: marketing_campaign_deposit
+[2026-05-26 04:43:49,318] [ERROR] Error extracting data from table {table_name}: {e}
+[2026-05-26 04:44:29,126] [INFO] Extracting CSV: work/data/new_bank_transaction.csv
+[2026-05-26 04:44:40,283] [INFO] Extracting CSV: data/new_bank_transaction.csv
+[2026-05-26 04:44:47,073] [INFO] Finished extracting data from data/new_bank_transaction.csv: 1048567 rows, 9 columns
+[2026-05-26 04:54:37,473] [INFO] Extracting table: marital_status
+[2026-05-26 04:54:37,509] [ERROR] Error extracting data from table {table_name}: {e}
+[2026-05-26 04:54:37,509] [INFO] Extracting table: education_status
+[2026-05-26 04:54:37,510] [ERROR] Error extracting data from table {table_name}: {e}
+[2026-05-26 04:54:37,510] [INFO] Extracting table: marketing_campaign_deposit
+[2026-05-26 04:54:37,511] [ERROR] Error extracting data from table {table_name}: {e}
+[2026-05-26 04:55:56,883] [INFO] Extracting table: marital_status
+[2026-05-26 04:55:58,356] [INFO] Finished extracting data from table marital_status: 3 rows, 4 columns
+[2026-05-26 04:55:58,358] [INFO] Extracting table: education_status
+[2026-05-26 04:55:58,592] [INFO] Finished extracting data from table education_status: 4 rows, 4 columns
+[2026-05-26 04:55:58,593] [INFO] Extracting table: marketing_campaign_deposit
+[2026-05-26 04:55:59,032] [INFO] Finished extracting data from table marketing_campaign_deposit: 45211 rows, 20 columns
+[2026-05-26 08:20:21,318] [INFO] Extracting table: marital_status
+[2026-05-26 08:20:25,255] [INFO] Finished extracting data from table marital_status: 3 rows, 4 columns
+[2026-05-26 08:20:25,257] [ERROR] Error extracting data from table marital_status: name 'sheet_name' is not defined
+[2026-05-26 08:20:25,258] [INFO] Extracting table: education_status
+[2026-05-26 08:20:25,432] [INFO] Finished extracting data from table education_status: 4 rows, 4 columns
+[2026-05-26 08:20:25,432] [ERROR] Error extracting data from table education_status: name 'sheet_name' is not defined
+[2026-05-26 08:20:25,433] [INFO] Extracting table: marketing_campaign_deposit
+[2026-05-26 08:20:25,686] [INFO] Finished extracting data from table marketing_campaign_deposit: 45211 rows, 20 columns
+[2026-05-26 08:20:25,687] [ERROR] Error extracting data from table marketing_campaign_deposit: name 'sheet_name' is not defined
+[2026-05-26 11:35:48,365] [ERROR] No such comm target registered: jupyter.widget.control
+[2026-05-26 11:35:48,386] [WARNING] No such comm: 56a9a938-dc4e-4219-8abb-6a09f2d4d604
+[2026-05-28 23:44:29,262] [ERROR] No such comm target registered: jupyter.widget.control
+[2026-05-28 23:44:29,283] [WARNING] No such comm: d80bb95b-9564-457e-a3f1-b7debd766658
+[2026-05-29 08:52:37,998] [INFO] Error while receiving.
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 516, in send_command
+    raise Py4JNetworkError("Answer from Java side is empty")
+py4j.protocol.Py4JNetworkError: Answer from Java side is empty
+[2026-05-29 08:52:38,034] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,039] [ERROR] Exception while sending command.
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 516, in send_command
+    raise Py4JNetworkError("Answer from Java side is empty")
+py4j.protocol.Py4JNetworkError: Answer from Java side is empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+[2026-05-29 08:52:38,050] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,849] [INFO] Error while receiving.
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 516, in send_command
+    raise Py4JNetworkError("Answer from Java side is empty")
+py4j.protocol.Py4JNetworkError: Answer from Java side is empty
+[2026-05-29 08:52:38,852] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,853] [ERROR] Exception while sending command.
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 516, in send_command
+    raise Py4JNetworkError("Answer from Java side is empty")
+py4j.protocol.Py4JNetworkError: Answer from Java side is empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+[2026-05-29 08:52:38,855] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,860] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,865] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,866] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,866] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,866] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,867] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,867] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,867] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,867] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,867] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,868] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,868] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,869] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,869] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,869] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,869] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,869] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,869] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,869] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,870] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,870] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,870] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,870] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,870] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,870] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,870] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,871] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,871] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,871] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,871] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,871] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,872] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,872] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,872] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,872] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,872] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,872] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,872] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,873] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,873] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,873] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,873] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,873] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,873] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,874] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,874] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,874] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,874] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,874] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,874] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,874] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,874] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,875] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,875] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,875] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,875] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,875] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,875] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,875] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,876] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,876] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,876] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,876] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,876] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,877] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,877] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,877] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,877] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,877] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,877] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,878] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,878] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,878] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,878] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,878] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,878] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,879] [INFO] Closing down clientserver connection
+[2026-05-29 08:52:38,879] [INFO] Closing down clientserver connection
+[2026-05-29 09:14:49,952] [ERROR] No such comm target registered: jupyter.widget.control
+[2026-05-29 09:14:49,964] [WARNING] No such comm: d24e1d98-083a-4e72-aa63-f435116f1c5b

@@ -12,3 +12,9 @@ explore/
 # ignore notebook/main.ipynb and test.ipynb
 notebook/main.ipynb
 notebook/test.ipynb
+
+.env
+script/.env
+.venv
+pipeline_dev.ipynb
+.DS_Store
