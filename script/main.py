@@ -1,7 +1,9 @@
+import json
 from pyspark.sql import SparkSession
 from extract.extract import extract_from_db, extract_from_csv
 from transform.transform import transform_marketing_campaign, transform_customer, transform_transaction
 from load.load import load_to_dwh
+from profiling import generate_profiling_report
 
 if __name__ == "__main__":
     # Inisialisasi SparkSession
@@ -20,6 +22,18 @@ if __name__ == "__main__":
     df_education_status = extract_from_db(spark = spark, table_name = "education_status")
     df_marketing_campaign_deposit = extract_from_db(spark = spark, table_name = "marketing_campaign_deposit")
     df_bank_transactions = extract_from_csv(spark = spark, path = "/home/jovyan/work/data/new_bank_transaction.csv")
+
+    dataframes = {
+        "education_status":df_education_status,
+        "marital_status":df_marital_status,
+        "marketing_campaign_deposit": df_marketing_campaign_deposit,
+        "bank_transaction":df_bank_transactions,
+    }
+
+    report = generate_profiling_report(dataframes)
+    print("writing profiling report..")
+    with open(f'work/data_profiling.json', 'w') as file:
+        file.write(json.dumps(report, indent= 4, default=str))
 
     # Transform data
     df_transformed_marketing_campaign = transform_marketing_campaign(spark = spark, df = df_marketing_campaign_deposit)

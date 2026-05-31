@@ -471,3 +471,7 @@ py4j.protocol.Py4JNetworkError: Error while sending or receiving
 [2026-05-29 08:52:38,879] [INFO] Closing down clientserver connection
 [2026-05-29 09:14:49,952] [ERROR] No such comm target registered: jupyter.widget.control
 [2026-05-29 09:14:49,964] [WARNING] No such comm: d24e1d98-083a-4e72-aa63-f435116f1c5b
+[2026-05-31 05:18:55,179] [ERROR] No such comm target registered: jupyter.widget.control
+[2026-05-31 05:18:55,191] [WARNING] No such comm: f77302e5-2837-4cc5-889f-3e4b39e14249
+[2026-05-31 09:29:15,350] [ERROR] No such comm target registered: jupyter.widget.control
+[2026-05-31 09:29:15,383] [WARNING] No such comm: 0bf38aa3-d449-443e-aa88-a0f0f831c2fe

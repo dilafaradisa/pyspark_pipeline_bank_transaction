@@ -18,3 +18,4 @@ script/.env
 .venv
 pipeline_dev.ipynb
 .DS_Store
+script/devv.ipynb
